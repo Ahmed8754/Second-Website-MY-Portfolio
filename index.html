@@ -1,0 +1,646 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+<title>Untitled Document</title>
+
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<title>Portfolio Website</title>
+</head>
+
+<body>
+  
+  <section id="nav-bar" class="nav-scrolled">
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+    
+        <div class="container-fluid">
+        <a class="navbar-brand" href="#">Portfo<span>lio.</span></a>
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <i class="fa fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav text-center ml-auto">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#top">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about-us">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#service">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#team">Team</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+
+    </div>
+
+  </div>
+
+</nav>
+
+</section>
+
+<!--------------NavBar Script -------------------->
+
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+
+<script>
+  $(window).on('scroll',function(){
+    if ($(window).scrollTop()){
+      $('nav').addClass('black');
+    }
+    else
+    {
+      $('nav').removeClass('black');
+    }
+  })
+</script>
+
+<!---------------- Binner Section ----------------->
+
+<section id="header" class="d-flex justify-content-center align-items-center">
+    <div class="header-container container">
+     
+     <div class="container">
+          <h5 data-aos="fade-up" data-aos-duration="2000">Hello, my name is </h5>
+          <h1 data-aos="fade-up" data-aos-duration="2000">Ahmed Khan</h1>
+          <div class="wrapper">
+            <div class="static-txt" data-aos="fade-up" data-aos-duration="2000">I'm a</div>
+            <ul class="dynamic-txt" data-aos="fade-up" data-aos-duration="2000">
+              <li><span>Designer</span></li>
+              <li><span>Freelancer</span></li>
+              <li><span>Developer</span></li>
+            </ul>
+          <!--  <a href="#" class="button_hero">Hire Me</a> -->
+     </div>
+    </div>
+  </div>
+  </section>
+
+<!---------------- Banner Particles Section Script ----------------->
+
+  <div id="particles-js"></div>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script>
+      particlesJS.load('particles-js', 'particles.json',
+      function(){
+          console.log('particles.json loaded...')
+      })
+  </script>
+
+  <script type="text/javascript" src="particles.js"></script>    
+
+  <script type="text/javascript" src="app.js"></script>
+
+<!---------------- About Section ----------------->
+
+<section id="about-us">
+  <div class="heading container text-center">
+    <h1 class="about_title" data-aos="zoom-in">About <span>ME</span></h1>
+    </div>
+
+    <div class="container">
+    <div class="row">
+      <div class="col-lg-4 col-md-4 col-sm-4 col-12">
+        <img src="Images/about.jpeg" class="about_image">
+      </div>
+
+      <div class="col-lg-8 col-md-8 col-sm-8 col-12">
+
+        <h2 class="about_title_two"><span>I AM </span> AHMED KHAN</h2>
+        <p class="about_para_two">Lorem ipsum carrots enhanced rebates. But the pain was, as if to welcome the pleasures they have these symptoms, it is an intense pleasure save the task. To do so will unfold in flight, there is nothing less here than at other times of sorrows, which are accusing. Will unfold in himself that whereby he, to hate itself, we may be able to achieve the truth, let it please, from the flattery of her, all the discomfort he wishes to follow the explorer of the exercise of the Blessed Virgin. That grief, which has been solved by the fault of pleasure has repudiated excepturi of these it is not.</p>
+
+        <a href="#" class="button_about">Download CV
+
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+
+        </a>
+      </div>
+
+    </div>
+    </div>
+
+</section>
+
+<!---------------- Service Section ----------------->
+
+<section id="service">
+  <div class="heading_service container text-center">
+    <h1 class="service_title" data-aos="zoom-in">My <span>Services</span></h1>
+    </div>
+    <div class="container">
+    <div class="row">
+  <div class="col-lg-4 col-md-4 col-sm-4 col-12 text-center">
+    <div class="box" data-aos="fade-up" data-aos-duration="1000">
+      <i class="fa fa-paint-brush fa-3x service-i" aria-hidden="true"></i>
+      <h1>Web Design</h1>
+      <p class="service_paras">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.</p>
+    </div>
+  </div>
+
+  <div class="col-lg-4 col-md-4 col-sm-4 col-12 text-center">
+    <div class="box" data-aos="zoom-in" data-aos-duration="1000">
+      <i class="fa fa-line-chart fa-3x service-i" aria-hidden="true"></i>
+      <h1>Web Design</h1>
+      <p class="service_paras">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.</p>
+    </div>
+  </div>
+
+  <div class="col-lg-4 col-md-4 col-sm-4 col-12 text-center">
+    <div class="box" data-aos="fade-up" data-aos-duration="1000">
+      <i class="fa fa-code fa-3x service-i" aria-hidden="true"></i>
+      <h1>Web Design</h1>
+      <p class="service_paras">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.</p>
+    </div>
+  </div>
+
+</div>
+</div>
+</section>
+
+<!---------------- skills Section ----------------->
+
+<section id="skills">
+  <div class="heading_service container text-center">
+    <h1 class="skills_title" data-aos="zoom-in">My <span>Skills</span></h1>
+    </div>
+
+    <div class="container">
+    <div class="row">
+  <div class="col-lg-6 col-md-6 col-sm-6 col-12 ">
+      <h3 class="skills_heading">My creative skills & experiences.</h3>
+      <p class="skills_decs">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, ratione error est recusandae consequatur, iusto illum deleniti quidem impedit, quos quaerat quis minima sequi. Cupiditate recusandae laudantium esse, harum animi aspernatur quisquam et delectus ipsum quam alias quaerat? Quasi hic quidem illum. Ad delectus natus aut hic explicabo minus quod.</p>
+
+      <a href="#" class="button_skills">Read More
+
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </a>
+    </div>
+    <div class="col-lg-6 col-md-6 col-sm-6 col-12 bars">
+      <h5>HTML</h5>
+        <div class="progress" style="height: 15px;">
+    <div data-aos="fade-right" data-aos-duration="1600" class="progress-bar" role="progressbar" style="width: 90%; background: #4070F4; height: 15px;" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">90%</div>
+  </div>
+
+  <h5>CSS</h5>
+  <div class="progress" style="height: 15px;">
+    <div data-aos="fade-right" data-aos-duration="1600" class="progress-bar html" role="progressbar" style="width: 70%; background: #4070F4; height: 15px;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">70%</div>
+  </div>
+
+  <h5>JavaScript</h5>
+  <div class="progress" style="height: 15px;">
+    <div data-aos="fade-right" data-aos-duration="1600" class="progress-bar" role="progressbar" style="width: 50%; background: #4070F4; height: 15px;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+  </div>
+
+  <h5>SQL</h5>
+  <div class="progress" style="height: 15px;">
+    <div data-aos="fade-right" data-aos-duration="1600" class="progress-bar" role="progressbar" style="width: 40%; background: #4070F4; height: 15px;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">40%</div>
+  </div>
+
+  <h5>C#</h5>
+  <div class="progress" style="height: 15px;">
+    <div data-aos="fade-right" data-aos-duration="1600" class="progress-bar" role="progressbar" style="width: 80%; background: #4070F4; height: 15px;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">80%</div>
+    </div>
+
+  </div>
+</div>
+</div>
+
+</section>
+
+<!---------------- team Section ----------------->
+
+<section id="team">
+  <div class="heading_service container text-center">
+    <h1 class="team_title" data-aos="zoom-in">My <span>Team</span></h1>
+    </div>
+
+    <div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+
+  <!-- The slideshow -->
+  <div class="carousel-inner container">
+    <div class="carousel-item active">
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-12 justify-content-center align-items-center">
+              <div class="box_team">
+                  <a href="#"><img src="Images/team.jpeg 1.jpeg" class="img-fluid"></a>
+                  <h4>some name</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            
+            <div class="col-lg-4 col-md-4 col-12">
+              <div class="box_team">
+                  <a href="#"><img src="Images/team.jpeg 2.jpeg" class="img-fluid"></a>
+                  <h4>some name</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            
+            <div class="col-lg-4 col-md-4 col-12">
+              <div class="box_team">
+                  <a href="#"><img src="Images/team.jpeg" class="img-fluid"></a>
+                  <h4>some name</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="carousel-item">
+      <div class="row">
+          <div class="col-lg-4 col-md-4 col-12">
+              <div class="box_team">
+                  <a href="#"><img src="Images/team.jpeg 3.jpeg" class="img-fluid"></a>
+                  <h4>some name</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            
+            <div class="col-lg-4 col-md-4 col-12">
+              <div class="box_team">
+                  <a href="#"><img src="Images/team.jpeg 4.jpeg" class="img-fluid"></a>
+                  <h4>some name</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>            </div>
+            
+            <div class="col-lg-4 col-md-4 col-12">
+              <div class="box_team">
+                  <a href="#"><img src="Images/team.jpeg 5.jpeg" class="img-fluid"></a>
+                  <h4>some name</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="carousel-item">
+      <div class="row">
+          <div class="col-lg-4 col-md-4 col-12">
+              <div class="box_team">
+                  <a href="#"><img src="Images/team.jpeg 6.jpeg" class="img-fluid"></a>
+                  <h4>some name</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            
+            <div class="col-lg-4 col-md-4 col-12">
+              <div class="box_team">
+                  <a href="#"><img src="Images/team.jpeg 7.jpeg" class="img-fluid"></a>
+                  <h4>some name</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            
+            <div class="col-lg-4 col-md-4 col-12">
+              <div class="box_team">
+                  <a href="#"><img src="Images/team.jpeg 8.jpeg" class="img-fluid"></a>
+                  <h4>some name</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+
+  <!-- Left and right controls 
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon prev_button"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon next_button"></span>
+  </a>
+-->
+</div>
+
+  </section>
+
+<!---------------- Portfolio Filter Section ----------------->
+
+<section class="protfolio_filter"> 
+  <div class="heading_service container text-center">
+    <h1 class="protfolio_title">Our Team Latest Featured Projects</h1>
+    <p class="protfolio_head">Who are in extremely love with eco friendly system.</p>
+    </div>
+
+    <div class="protfolio_menu">
+      <ul>
+        <li class="active" data-filter="*">ALL</li>
+        <li data-filter=".sin_web">Single Page Website</li>
+        <li data-filter=".mul_web">Multiple Page Website</li>
+        <li data-filter=".word_web">Wordpress Website</li>
+      </ul>
+    </div>
+
+    <div class="container">
+    <div class="protfolio_item">
+              <div class="row protfolio_images">
+                  <div class="col-lg-4 col-md-4 col-sm-4 col-12 item sin_web images_div">
+                    <div class="image">
+                      <img src="Images/static.jpg" class="image__img">
+                      <div class="image__overlay image__overlay--primary">
+                        <div class="image__title"><i class="fa fa-link" aria-hidden="true"></i></div>
+                  </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-4 col-md-4 col-sm-4 col-12 item mul_web">
+                    <div class="image">
+                      <img src="Images/dynamic.jpg 1.jpg" class="image__img">
+                      <div class="image__overlay image__overlay--primary">
+                        <div class="image__title"><i class="fa fa-link" aria-hidden="true"></i></div>
+                  </div>
+                </div>
+                  </div>
+
+                  <div class="col-lg-4 col-md-4 col-sm-4 col-12 item sin_web">
+                    <div class="image">
+                      <img src="Images/static.jpg 1.jpg" class="image__img">
+                      <div class="image__overlay image__overlay--primary">
+                        <div class="image__title"><i class="fa fa-link" aria-hidden="true"></i></div>
+                  </div>
+                  </div>
+                    </div>
+                  </div>
+
+                  <div class="row protfolio_images">
+
+                  <div class="col-lg-4 col-md-4 col-sm-4 col-12 item sin_web">
+                    <div class="image">
+                      <img src="Images/static.jpg 2.jpg" class="image__img">
+                      <div class="image__overlay image__overlay--primary">
+                        <div class="image__title"><i class="fa fa-link" aria-hidden="true"></i></div>
+                  </div>
+                  </div>
+                  </div>
+
+                  <div class="col-lg-4 col-md-4 col-sm-4 col-12 item mul_web">
+                    <div class="image">
+                      <img src="Images/dynamic.jpg" class="image__img">
+                      <div class="image__overlay image__overlay--primary">
+                        <div class="image__title"><i class="fa fa-link" aria-hidden="true"></i></div>
+                  </div>
+                  </div>
+                  </div>
+
+                  <div class="col-lg-4 col-md-4 col-sm-4 col-12 item word_web">
+                    <div class="image">
+                      <img src="Images/wordpress.jpg" class="image__img">
+                      <div class="image__overlay image__overlay--primary">
+                        <div class="image__title"><i class="fa fa-link" aria-hidden="true"></i></div>
+                  </div>
+                  </div>
+                  </div>
+
+                </div>       
+
+                <div class="row protfolio_images">
+
+                  <div class="col-lg-4 col-md-4 col-sm-4 col-12 item mul_web">
+                    <div class="image">
+                      <img src="Images/dynamic.jpg 2.jpg" class="image__img">
+                      <div class="image__overlay image__overlay--primary">
+                        <div class="image__title"><i class="fa fa-link" aria-hidden="true"></i></div>
+                  </div>
+                  </div>
+                  </div>
+
+                  <div class="col-lg-4 col-md-4 col-sm-4 col-12 item word_web">
+                    <div class="image">
+                      <img src="Images/wordpress.jpg 1.jpg" class="image__img">
+                      <div class="image__overlay image__overlay--primary">
+                        <div class="image__title"><i class="fa fa-link" aria-hidden="true"></i></div>
+                  </div>
+                  </div>
+                  </div>
+
+                  <div class="col-lg-4 col-md-4 col-sm-4 col-12 item mul_web">
+                    <div class="image">
+                      <img src="Images/dynamic.jpg 3.jpg" class="image__img">
+                      <div class="image__overlay image__overlay--primary">
+                        <div class="image__title"><i class="fa fa-link" aria-hidden="true"></i></div>
+                  </div>
+                  </div>
+                  </div>
+
+                </div>    
+        </div>
+    </div>
+
+
+</section>
+
+<!---------------- Contact Form Section ----------------->
+
+<section id="contact">
+  <div class="heading_contact container text-center">
+    <h1 class="contact_title">Contact <span>ME</span></h1>
+    </div>
+
+    <div class="container">
+  <div class="row">
+    <div class="col-lg-6 col-md-6 col-sm-6 col-12 contact_data">
+
+      <h5>Get in Touch</h5>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos harum corporis fuga corrupti. Doloribus quis soluta nesciunt veritatis vitae nobis?</p>
+      <div class="info_font">
+      <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+      <div class="info">
+      <h2>Name</h2>
+      <p>Ahmed Khan</p>
+      </div>
+      </div>
+
+      <br>
+
+      <div class="info_font">
+      <i class="fa fa-map-marker" aria-hidden="true"></i>
+      <div class="info_second">
+      <h2>Address</h2>
+      <p>Karachi, Pakistan</p>
+      </div>
+      </div>
+
+      <br>
+
+      <div class="info_font">
+      <i class="fa fa-envelope" aria-hidden="true"></i>
+      <div class="info">
+      <h2>Email</h2>
+      <p>abc@gmail.com</p>
+      </div>
+      </div>
+      <div class="social_icon">
+      <a href="#"><i class="fa fa-facebook" aria-hidden="true" data-aos="fade-right" data-aos-duration="800"></i></a>
+      <a href="#"><i class="fa fa-twitter" aria-hidden="true" data-aos="fade-right" data-aos-duration="900"></i></a>
+      <a href="#"><i class="fa fa-instagram" aria-hidden="true" data-aos="fade-right" data-aos-duration="1200"></i></a>
+      </div>
+    </div>
+
+
+
+    <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+
+      <form class="form_class">
+        <h4>Message me</h4>
+  <div class="form-row">
+
+    <div class="form-group col-lg-6 col-md-6 col-sm-6 col-12">    
+      <input type="text" class="form-control" id="inputfname" placeholder="First Name" required autocomplete="off">
+    </div>
+    <div class="form-group col-lg-6 col-md-6 col-sm-6 col-12">
+      <input type="text" class="form-control" id="inputlname" placeholder="Last Name" required autocomplete="off">
+    </div>
+  </div>
+  <div class="form-group">
+    <input type="text" class="form-control" id="inputsubject" placeholder="Subject" required autocomplete="off">
+  </div> 
+  <div class="form-group">
+    <input type="email" class="form-control" id="inputemail" placeholder="Email" name="email" required autocomplete="off">
+  </div>
+  <div class="form-row">
+    <div class="form-group col-lg-4 col-md-4 col-sm-4 col-4">
+      <select id="inputState" class="form-control" required autocomplete="off">
+        <option selected>Select Code...</option>
+        <option>PK +92</option>
+        <option>US +1</option>
+        <option>IN +91</option>
+        <option>UK +44</option>
+      </select>
+    </div>
+    <div class="form-group col-lg-8 col-md-8 col-sm-8 col-8">
+      <input type="number" class="form-control" id="inputnumber" required autocomplete="off">
+    </div>
+  </div>
+  <div class="form-group">
+    <textarea type="text" class="form-control" id="inputmessage" placeholder="Message" required autocomplete="off"></textarea>
+  </div>
+  <button type="submit" class="btn btn-primary" id="btn_submit">Send Message
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+</form>
+    </div>
+  </div>
+
+</div>
+
+</section>
+
+<div class="create">
+    <p>Created By <span> Ahmed Khan </span>| © 2021</p>
+</div>
+
+
+<div class="scrolltop float-right">
+  <img src="Images/sun.png" id="icon">
+  </div> 
+
+
+<div class="scrolltop float-right">
+  <a href="#header"><i class="fa fa-arrow-up" id="mybtn"></i></a>
+  </div> 
+
+<!-------- Script Section -------------->
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+
+<script type="text/javascript">
+
+  $('.protfolio_item').isotope({
+  // options
+  itemSelector: '.item',
+  layoutMode: 'fitRows'
+});
+
+  $('.protfolio_menu ul li').click(function(){
+  $('.protfolio_menu ul li').removeClass('active');
+  $(this).addClass('active');
+
+  var selector = $(this).attr('data-filter');
+  $('.protfolio_item').isotope({
+    filter:selector
+  });
+  return false;
+
+  });
+
+</script>
+
+<!------------ Smooth Scroll -------------------->
+
+<script src="smooth-scroll.js"></script>
+  <script>
+  var scroll = new SmoothScroll('a[href*="#"]');
+</script>
+
+<!----------Animation------------------->
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+<!-------------------Dark Theme Mode--------------------->
+
+<script>
+    
+    var icon = document.getElementById("icon");
+
+    icon.onclick = function()
+    {
+        document.body.classList.toggle("light-theme");
+        if (document.body.classList.contains("light-theme")) {
+            icon.src = "Images/moon.png";
+        }
+        else
+        {
+            icon.src = "Images/sun.png";
+        }
+    }
+</script>
+
+
+</body>
+
+</html>
